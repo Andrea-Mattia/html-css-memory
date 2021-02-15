@@ -62,22 +62,7 @@ header h1 {
     margin: 2% 2%;
 }
 
-.tractor:hover {
-    display: block;
-    width: 100%;
-    background: white;
-    background-image: url('../img/noun_Tractor_3134797.png');
-    background-size: 150px 150px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.card:hover h2 {
-    display: block;
-    text-align: center;
-    padding-top: 190px;
-    color: orange;
-}
+/* ACTIVE CARD */
 
 .card.active {
     display: block;
@@ -96,6 +81,77 @@ header h1 {
     color: magenta;
 }
 
-.card.active:hover h2 {
+/* HOVERING CARDS */
+.card:hover h2 {
+    display: block;
+    text-align: center;
+    padding-top: 190px;
     color: orange;
+}
+
+.tractor:hover {
+    display: block;
+    width: 100%;
+    background: white;
+    background-image: url('../img/noun_Tractor_3134797.png');
+    background-size: 150px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.submarine:hover {
+    display: block;
+    width: 100%;
+    background: white;
+    background-image: url('../img/noun_Submarine_3134738.png');
+    background-size: 150px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bicycle:hover {
+    display: block;
+    width: 100%;
+    background: white;
+    background-image: url('../img/noun_Bicycle_3134821.png');
+    background-size: 150px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.balloon:hover {
+    display: block;
+    width: 100%;
+    background: white;
+    background-image: url('../img/noun_air_balloon_3134741.png');
+    background-size: 150px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ship:hover {
+    display: block;
+    width: 100%;
+    background: white;
+    background-image: url('../img/noun_Cruise_Ship_3134824.png');
+    background-size: 150px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tram:hover {
+    display: block;
+    width: 100%;
+    background: white;
+    background-image: url('../img/noun_Tram_3134750.png');
+    background-size: 150px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* FOOTER */
+footer {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 60px;
 }
