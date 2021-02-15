@@ -7,4 +7,12 @@
 
 body {
     font-family: 'Nerko One', cursive, sans-serif;
+    background: lightblue;
+}
+
+header h1 {
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    font-size: 80px;
 }
