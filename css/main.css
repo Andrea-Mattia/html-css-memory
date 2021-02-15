@@ -47,11 +47,12 @@ header h1 {
     width: 100%;
     height: 230px;
     margin-bottom: 20%;
+    position: relative;
     box-shadow: 1px 1px 4px gray;
     border-radius: 10px;
 }
 
-.row .card img {
+.card h2 {
     display: none;
 }
 
@@ -59,4 +60,42 @@ header h1 {
     float: left;
     width: 20%;
     margin: 2% 2%;
+}
+
+.tractor:hover {
+    display: block;
+    width: 100%;
+    background: white;
+    background-image: url('../img/noun_Tractor_3134797.png');
+    background-size: 150px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card:hover h2 {
+    display: block;
+    text-align: center;
+    padding-top: 190px;
+    color: orange;
+}
+
+.card.active {
+    display: block;
+    width: 100%;
+    background: white;
+    background-image: url('../img/noun_air_balloon_3134741.png');
+    background-size: 150px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card.active h2 {
+    display: block;
+    text-align: center;
+    padding-top: 190px;
+    color: magenta;
+}
+
+.card.active:hover h2 {
+    color: orange;
 }
