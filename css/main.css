@@ -19,7 +19,7 @@ body {
 
 /* UTILITY */
 
-.clearfix {
+.clearfix::after {
     content: '';
     display: table;
     clear: both;
